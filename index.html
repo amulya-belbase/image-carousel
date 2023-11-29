@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Dancing+Script&family=Libre+Baskerville&family=Lobster+Two&family=Montserrat&family=Plus+Jakarta+Sans&family=Poppins:wght@500&family=Prompt&family=Roboto&display=swap"
+        rel="stylesheet">
+    <title>Image Slider</title>
+</head>
+
+<body>
+
+    <div class="desc_container">
+        <h1>
+            The Letters of Vincent
+        </h1>
+        <p>Starry, starry night <br>
+            Portraits hung in empty halls <br>
+            Frameless heads on nameless walls <br>
+            With eyes that watch the world and can't forget.</p>
+    </div>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <div class="imgSlides fade">
+            <img src="./img2.jpg" style="width:100%">
+        </div>
+
+        <div class="imgSlides fade">
+            <img src="./img4.webp" style="width:100%">
+        </div>
+
+        <div class="imgSlides fade">
+            <img src="./img1.jpg" style="width:100%">
+        </div>
+
+        <div class="imgSlides fade">
+            <img src="./img5.jpg" style="width:100%">
+        </div>
+
+        <div class="imgSlides fade">
+            <img src="./img6.jpg" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+
+    <!-- The dots/circles -->
+    <div id="dotsection">
+        <!-- <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span> -->
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
